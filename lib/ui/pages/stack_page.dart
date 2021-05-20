@@ -27,9 +27,12 @@ class StackPage extends StatelessWidget {
                 ),
               ),
               onPressed: () {},
-              child: Text(
-                'Login',
-                style: TextStyle(color: Colors.black87),
+              child: Padding(
+                padding: const EdgeInsets.all(20.0),
+                child: Text(
+                  'Login',
+                  style: TextStyle(color: Colors.black87),
+                ),
               ),
             ),
           ),

@@ -1,6 +1,7 @@
 
 import 'package:app_prueba/ui/pages/botones_page.dart';
 import 'package:app_prueba/ui/pages/column_page.dart';
+import 'package:app_prueba/ui/pages/drawer_page.dart';
 import 'package:app_prueba/ui/pages/images_page.dart';
 import 'package:app_prueba/ui/pages/list_column_page..dart';
 import 'package:app_prueba/ui/pages/list_row_page.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Material App',
-      home: PageViewPage(), 
+      home: DrawerPage(), 
     );
   }
 }

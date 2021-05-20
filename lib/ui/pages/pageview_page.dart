@@ -52,10 +52,14 @@ class PageViewPage extends StatelessWidget {
             ),
           ),
           Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text('Texto'),
               Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.only(bottom: 10, left: 50, top: 100),
+                child: Text('Texto'),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 40),
                 child: ElevatedButton.icon(
                   onPressed: () {},
                   icon: Icon(Icons.ac_unit_rounded),
