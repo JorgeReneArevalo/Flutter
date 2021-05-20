@@ -1,3 +1,4 @@
+import 'package:app_prueba/models/menu_item_model.dart';
 import 'package:app_prueba/ui/widgets/menu_item_widget.dart';
 import 'package:flutter/material.dart';
 
@@ -6,6 +7,7 @@ class DrawerPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    //print('Se dibuja');
     return Scaffold(
       appBar: AppBar(
         title: Text('Drawer Page'),
@@ -23,12 +25,7 @@ class DrawerPage extends StatelessWidget {
               currentAccountPicture: Image.network(
                   'https://icon-library.com/images/default-user-icon/default-user-icon-7.jpg'),
             ),
-            MenuItem(
-              title: 'Nueva opcion',
-              leading: Icons.note_add,
-              trailing: Icons.play_arrow,
-              dibujarTrailing: false,
-            ),
+            ...listaOpciones
           ],
         ),
       ),
