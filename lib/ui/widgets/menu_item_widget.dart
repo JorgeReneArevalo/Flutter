@@ -20,10 +20,13 @@ class MenuItem extends StatelessWidget {
         leading,
         color: Colors.blue,
       ),
-      trailing: dibujarTrailing ? Icon(trailing) : Text(''),
+      trailing: dibujarTrailing ? Icon(trailing ) : Text(''),
       onTap: () {
         print('Click en ListTile');
       },
     );
   }
 }
+/*
+MenuItemModel? p = MenuItemModel(id: 0, titulo: '');
+p.leading= Icons.ac_unit_outlined;*/

@@ -11,6 +11,7 @@ class MenuItemModel {
   int id;
   String titulo;
   IconData leading;
+  //int? _variablePrivada;// Variables privadas
 }
 
 /*final List<MenuItemModel> opciones = [

@@ -1,14 +1,5 @@
 
-import 'package:app_prueba/ui/pages/botones_page.dart';
-import 'package:app_prueba/ui/pages/column_page.dart';
-import 'package:app_prueba/ui/pages/drawer_page.dart';
-import 'package:app_prueba/ui/pages/images_page.dart';
-import 'package:app_prueba/ui/pages/list_column_page..dart';
-import 'package:app_prueba/ui/pages/list_row_page.dart';
-import 'package:app_prueba/ui/pages/pageview_page.dart';
-import 'package:app_prueba/ui/pages/row_page.dart';
-import 'package:app_prueba/ui/pages/stack_page.dart';
-//import 'package:app_prueba/ui/pages/home_page.dart';
+import 'package:app_prueba/ui/pages/listview_builder_page..dart';
 import 'package:flutter/material.dart';
  
 void main() => runApp(MyApp());
@@ -19,7 +10,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Material App',
-      home: DrawerPage(), 
+      home: ListViewBuilderPage(),
+      theme: ThemeData.dark(), 
     );
   }
 }
