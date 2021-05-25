@@ -26,7 +26,9 @@ class StackPage extends StatelessWidget {
                   borderRadius: BorderRadius.circular(20),
                 ),
               ),
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pushReplacementNamed(context, 'menu');
+              },
               child: Padding(
                 padding: const EdgeInsets.all(20.0),
                 child: Text(

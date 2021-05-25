@@ -1,5 +1,6 @@
 
-import 'package:app_prueba/ui/pages/listview_builder_page..dart';
+import 'package:app_prueba/routes.dart';
+import 'package:app_prueba/ui/pages/background_color_page.dart';
 import 'package:flutter/material.dart';
  
 void main() => runApp(MyApp());
@@ -10,8 +11,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Material App',
-      home: ListViewBuilderPage(),
-      theme: ThemeData.dark(), 
+      //home: BackgroundPage(),
+      theme: ThemeData.light(),
+      routes: rutas(), 
     );
   }
 }

@@ -41,6 +41,7 @@ class ListViewBuilderPage extends StatelessWidget {
                   context: context,
                   builder: (context) {
                     return AlertDilogs(
+                      andriod: true,
                       usuario: usuario,
                       onPressOk: () {
                         print('OK');
